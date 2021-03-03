@@ -1,1 +1,1 @@
-export const apiRoot = "https://logo-back.herokuapp.com/api"
+export const apiRoot = "https://logo.mah-miloy.tech/api"

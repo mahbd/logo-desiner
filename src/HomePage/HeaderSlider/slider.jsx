@@ -42,19 +42,19 @@ function SliderBox() {
           {[...sliders.entries()].map(([index, slider]) =>
               <SwiperSlide key={index}>
                 <div className="row" style={{paddingTop: '100px'}}>
-                  <div class="col-md-5">
-                    <div class="slider_cont">
+                  <div className="col-md-5">
+                    <div className="slider_cont">
                       <h3 className="text-dark">{slider.title}</h3>
                       <p>{slider.text}</p>
-                      <a class="main_bt_border text-dark bg-primary" href={slider.url}>
+                      <a className="main_bt_border text-dark bg-primary" href={slider.url}>
                         Order Now
                       </a>
                     </div>
                   </div>
 
-                  <div class="col-md-7">
-                    <div class="slider_image full text_align_center">
-                      <img class="img-responsive" src={slider.image} alt="#"/>
+                  <div className="col-md-7">
+                    <div className="slider_image full text_align_center">
+                      <img className="img-responsive" src={slider.image} alt="#"/>
                     </div>
                   </div>
                 </div>

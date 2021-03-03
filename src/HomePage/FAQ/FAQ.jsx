@@ -16,24 +16,24 @@ class FAQ extends Component {
   render() {
 
     return (
-        <div class="faqs ">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-5 ">
-                <div class="faqs-img bg-color-white">
-                  <div class="icon-question"/>
+        <div className="faqs ">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-5 ">
+                <div className="faqs-img bg-color-white">
+                  <div className="icon-question"/>
                 </div>
               </div>
-              <div class="col-md-7">
-                <div class="section-header ">
+              <div className="col-md-7">
+                <div className="section-header ">
                   <h2>Frequently asked questions?</h2>
                 </div>
                 <div id="accordion ">
 
                   {[...this.state.faqs.entries()].map(([index, faq]) =>
-                      <div key={index} class="card">
-                        <div class="card-header">
-                          <a class="card-link"
+                      <div key={index} className="card">
+                        <div className="card-header">
+                          <a className="card-link"
                              data-toggle="collapse"
                              href={`#collapse${index}`}>
                             <span>{index + 1}</span> {faq.question}
@@ -41,17 +41,17 @@ class FAQ extends Component {
                         </div>
                         <div
                             id={`collapse${index}`}
-                            class="collapse"
+                            className="collapse"
                             data-parent="#accordion"
                         >
-                          <div class="card-body">{faq.answer}</div>
+                          <div className="card-body">{faq.answer}</div>
                         </div>
                       </div>
                   )}
 
 
                 </div>
-                <a class="btn" href="">Have more questions?</a>
+                <a className="btn" href="">Have more questions?</a>
               </div>
             </div>
           </div>

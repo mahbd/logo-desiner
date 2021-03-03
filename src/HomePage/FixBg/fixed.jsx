@@ -21,8 +21,8 @@ class Customer extends Component {
             <div className="row">
               <div className="col-lg-3 col-sm-6 col-xs-12 mt-4 statistics-content">
                 <div className="statistics bg-color-1 ">
-                  <div class="statistics-icon">
-                    <i class="icon-happy"/>
+                  <div className="statistics-icon">
+                    <i className="icon-happy"/>
                   </div>
                   <h3 className="counter-number">{customers}</h3>
                   <h4>Happy customers</h4>
@@ -30,8 +30,8 @@ class Customer extends Component {
               </div>
               <div className="col-lg-3 col-sm-6 col-xs-12 mt-4 statistics-content">
                 <div className="statistics bg-color-2 ">
-                  <div class="statistics-icon">
-                    <i class="icon-back-in-time"/>
+                  <div className="statistics-icon">
+                    <i className="icon-back-in-time"/>
                   </div>
                   <h3 className="counter-number">{projects}</h3>
                   <h4>Projects</h4>
@@ -39,8 +39,8 @@ class Customer extends Component {
               </div>
               <div className="col-lg-3 col-sm-6 col-xs-12 mt-4 statistics-content">
                 <div className="statistics bg-color-3 ">
-                  <div class="statistics-icon">
-                    <i class=" icon-star-outlined"/>
+                  <div className="statistics-icon">
+                    <i className=" icon-star-outlined"/>
                   </div>
                   <h3 className="counter-number">{reviews}</h3>
                   <h4>Positive Reviews</h4>
@@ -48,8 +48,8 @@ class Customer extends Component {
               </div>
               <div className="col-lg-3 col-sm-6 col-xs-12 mt-4 statistics-content">
                 <div className="statistics bg-color-4 ">
-                  <div class="statistics-icon">
-                    <i class=" icon-bike"/>
+                  <div className="statistics-icon">
+                    <i className=" icon-bike"/>
                   </div>
                   <h3 className="counter-number">{delivery_rate}</h3>
                   <h4>On Time Delivery</h4>
